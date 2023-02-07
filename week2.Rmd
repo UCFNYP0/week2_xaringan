@@ -1,0 +1,42 @@
+---
+title: "introduce about SAR"
+author: "Yujin Pan"
+institute: "CASA"
+student number: "22208668"
+date: "2/7/2023"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: "xaringan-themer.css"
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_mono_accent(
+  base_color = "#1381B0",
+  header_font_google = google_font("Josefin Sans"),
+  text_font_google   = google_font("Montserrat", "300", "300i"),
+  code_font_google   = google_font("Fira Mono")
+)
+```
+# Sensor summary
+
+## Synthetic Aperture Radar (SAR)
+- Using radar over optical remote sensing
+
+- **Advantanges**
+
+> (+) Ability to capture data day or night
+> (+) See through clouds
+> (+) Weather independence by selecting proper frequency range
+> (+) Penetration through the vegetation
+canopy and the soil
+
+---
+# Sensor summary
+
+---
+
